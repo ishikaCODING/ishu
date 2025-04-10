@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #c1595988;
+}
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+}
+header {
+background: #0073e6;
+color: white;
+padding: 20px;
+position: sticky;
+top: 0;
+backdrop-filter: blur(45px);
+z-index: 1000;
+}
+
+button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.safety-topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.topic {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.topic button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.topic button:hover {
+    background: #005bb5;
+}
+.sub-options {
+    display: none;
+    text-align: left;
+    padding: 10px;
+    background: #e6f2ff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.whatsapp-button, .location-button {
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.whatsapp-button:hover, .location-button:hover {
+    background: #1EBE5D;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.my-img {
+   width: 100px;
+   border-radius: 20px;
+   filter: grayscale(50%);
+}
+
+.in-img {
+    width: 50px;
+    border-radius: 20px;
+    filter: grayscale(50%);
+}
+
+.on-img{
+    width: 50px;
+    border-radius: 20px;
+    filter: grayscale(50%);
+}
+
+.am-img {
+    width: 90px;
+    border-radius: 20px;
+    filter: grayscale(50%);
+}
+.feedback-container {
+    margin-top: 20px;
+    word-break: break-word;
+    white-space: nowrap;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.stars span {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+}
+.stars span:hover, .stars span.active {
+    color: gold;
+}
+
+ .sos-button {
+    background: red;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+
+ 
+
+}
+.sos-button:hover {
+    background: darkred;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e8dbdb;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e9d5d5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #c70000;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  li {
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #c70000;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  li strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  li a {
+    color: #c70000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #fff6f6;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  #helplines {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .helpline-item {
+    margin-bottom: 10px;
+    border-left: 4px solid #d10000;
+    padding-left: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eddddd;
+    padding: 50px;
+  }
+  
+  h2 {
+    color: #c70000;
+  }
+  
+  button {
+    color: white;
+    padding: 14px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: orangered;
+  }
+  
+  #status {
+    margin-top: 20px;
+    color: #333;
+  }
+  
